@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007ACC; /* لون يرمز للاتصالات والتواصل */
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #F5F5F5; /* لون يرمز للخلفية والبيئة الجيدة */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007ACC; /* لون يرمز للعنوان والموضوع الرئيسي */
+  white-space: nowrap; /* يجعل النص لا ينقسم إلى أكثر من سطر */
+  overflow: hidden; /* يخفي أي نص زائد يتجاوز حجم العنصر */
+  text-overflow: ellipsis; /* يظهر نقطًا تبين أن هناك نصًا مخفيًا */
+}
+
+
+p {
+  color: #666;
+}
+
+ul {
+  color: #666;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007ACC; /* لون يرمز للإرسال والتحفيز */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #005A8C; /* لون الخلفية عند التحويم */
+}
